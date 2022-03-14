@@ -1,0 +1,285 @@
+Year,App.,Taxon,Class,Order,Family,Genus,Importer,Exporter,Origin,Importer reported quantity,Exporter reported quantity,Term,Purpose,Source,Source_def
+1999,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,3,live,Personal,W,Taken from wild
+2015,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,1,,live,Personal,W,Taken from wild
+1996,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,SN,,,100,live,Personal,W,Taken from wild
+1990,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,MY,ID,,1630,live,Commercial,W,Taken from wild
+1990,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,US,ID,,6,live,Commercial,W,Taken from wild
+1991,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,1944,live,Commercial,W,Taken from wild
+1991,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,MY,ID,,775,live,Commercial,W,Taken from wild
+1993,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,,200,live,Commercial,W,Taken from wild
+1994,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,530,,live,Commercial,W,Taken from wild
+1995,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,375,live,Commercial,W,Taken from wild
+1996,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,471,771,live,Commercial,W,Taken from wild
+1997,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,630,live,Commercial,W,Taken from wild
+1998,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,1018,live,Commercial,W,Taken from wild
+1999,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,28,live,Commercial,W,Taken from wild
+2001,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,25,live,Commercial,W,Taken from wild
+2002,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,510,,live,Commercial,W,Taken from wild
+2003,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,60,,live,Commercial,W,Taken from wild
+1993,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,UY,,30,live,Commercial,W,Taken from wild
+1997,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,UY,,24,live,Commercial,W,Taken from wild
+2003,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,UY,300,300,live,Commercial,W,Taken from wild
+2004,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,UY,800,800,live,Commercial,W,Taken from wild
+2005,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,AR,,750,750,live,Commercial,W,Taken from wild
+2005,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,UY,400,,live,Commercial,W,Taken from wild
+2005,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,,800,live,Commercial,W,Taken from wild
+2008,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,300,300,live,Commercial,W,Taken from wild
+2010,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,1100,700,live,Commercial,W,Taken from wild
+2011,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,1300,700,live,Commercial,W,Taken from wild
+2012,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,3000,1500,live,Commercial,W,Taken from wild
+2013,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,500,,live,Commercial,W,Taken from wild
+1991,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,,850,live,Commercial,W,Taken from wild
+1991,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,MY,ID,,50,live,Commercial,W,Taken from wild
+1994,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,1300,,live,Commercial,W,Taken from wild
+1995,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,300,,live,Commercial,W,Taken from wild
+1996,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,50,50,live,Commercial,W,Taken from wild
+1996,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,200,,live,Commercial,W,Taken from wild
+1997,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,,83,live,Commercial,W,Taken from wild
+1997,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,GN,,,155,live,Commercial,W,Taken from wild
+1998,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,PK,,,1000,live,Commercial,W,Taken from wild
+1999,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,PK,,,2000,live,Commercial,W,Taken from wild
+2000,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,PK,,,400,live,Commercial,W,Taken from wild
+2001,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,PK,,,500,live,Commercial,W,Taken from wild
+2002,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,PK,,,1000,live,Commercial,W,Taken from wild
+2003,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,GN,,,20,live,Commercial,W,Taken from wild
+2003,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,PK,,,1200,live,Commercial,W,Taken from wild
+1990,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,,395,live,Commercial,W,Taken from wild
+1991,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,1500,live,Commercial,W,Taken from wild
+1991,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,,210,live,Commercial,W,Taken from wild
+1995,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,US,SG,,12,specimens,Not defined,W,Taken from wild
+2012,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,HK,XX,1,1,live,Personal,U,Unknown
+2005,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,UY,180,,live,Commercial,R,Ranched specimens (eggs from wild)
+2005,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,800,,live,Commercial,R,Ranched specimens (eggs from wild)
+2017,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,US,,10,,live,Personal,F,Born in captivity
+2002,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,YU,,100,100,live,Commercial,F,Born in captivity
+2017,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,US,,,10,live,Commercial,F,Born in captivity
+2000,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,CH,,8,,live,Commercial,F,Born in captivity
+2000,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,CH,,,8,live,Not defined,F,Born in captivity
+1995,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,PH,,2,,live,Zoo,C,Bred in captivity
+2004,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,NZ,,166,,live,Zoo,C,Bred in captivity
+2014,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,TW,,100,,live,Zoo,C,Bred in captivity
+2019,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ES,,11,,live,Zoo,C,Bred in captivity
+1998,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,,6,live,Zoo,C,Bred in captivity
+2014,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,TW,,20,,live,Zoo,C,Bred in captivity
+2000,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,AU,,2,2,live,Personal,C,Bred in captivity
+2007,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,ZA,1,1,live,Personal,C,Bred in captivity
+1997,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,US,,1,,live,Personal,C,Bred in captivity
+2014,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,US,,5,,live,Personal,C,Bred in captivity
+2015,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,AU,,1,1,live,Personal,C,Bred in captivity
+2016,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,US,,11,,live,Personal,C,Bred in captivity
+1998,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,GB,,,18,live,Personal,C,Bred in captivity
+1993,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,NL,,,4,live,Commercial,C,Bred in captivity
+1997,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,NL,,10,10,live,Commercial,C,Bred in captivity
+2000,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ZA,,20,280,live,Commercial,C,Bred in captivity
+2001,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ZA,,260,396,live,Commercial,C,Bred in captivity
+2002,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,340,,live,Commercial,C,Bred in captivity
+2002,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ZA,,278,730,live,Commercial,C,Bred in captivity
+2003,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,NZ,,20,40,live,Commercial,C,Bred in captivity
+2003,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,120,,live,Commercial,C,Bred in captivity
+2003,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ZA,,674,998,live,Commercial,C,Bred in captivity
+2004,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,500,,live,Commercial,C,Bred in captivity
+2004,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ZA,,130,160,live,Commercial,C,Bred in captivity
+2005,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,CI,LR,40,,live,Commercial,C,Bred in captivity
+2005,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,CI,,20,,live,Commercial,C,Bred in captivity
+2005,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,LR,,26,,live,Commercial,C,Bred in captivity
+2005,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,NZ,,48,48,live,Commercial,C,Bred in captivity
+2005,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,PH,,6,,live,Commercial,C,Bred in captivity
+2005,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,1730,,live,Commercial,C,Bred in captivity
+2005,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ZA,,,90,live,Commercial,C,Bred in captivity
+2006,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,GN,,6,,live,Commercial,C,Bred in captivity
+2006,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,TW,,6,,live,Commercial,C,Bred in captivity
+2007,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,NZ,,36,,live,Commercial,C,Bred in captivity
+2007,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,TW,,48,,live,Commercial,C,Bred in captivity
+2008,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,30,,live,Commercial,C,Bred in captivity
+2008,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,TW,,93,,live,Commercial,C,Bred in captivity
+2009,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,30,,live,Commercial,C,Bred in captivity
+2010,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ZA,,,60,live,Commercial,C,Bred in captivity
+2011,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,TW,,10,,live,Commercial,C,Bred in captivity
+2016,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ZA,,,18,live,Commercial,C,Bred in captivity
+2020,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ES,,,11,live,Commercial,C,Bred in captivity
+2020,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,LK,,,10,live,Commercial,C,Bred in captivity
+1997,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,UY,24,,live,Commercial,C,Bred in captivity
+1998,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,6,,live,Commercial,C,Bred in captivity
+2000,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,,10,live,Commercial,C,Bred in captivity
+2001,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,,10,live,Commercial,C,Bred in captivity
+2002,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,10,180,live,Commercial,C,Bred in captivity
+2003,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,,40,live,Commercial,C,Bred in captivity
+2004,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,UY,500,500,live,Commercial,C,Bred in captivity
+2004,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,NL,,60,32,live,Commercial,C,Bred in captivity
+2004,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,SB,,200,,live,Commercial,C,Bred in captivity
+2005,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,CI,,9,,live,Commercial,C,Bred in captivity
+2005,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,LR,,300,,live,Commercial,C,Bred in captivity
+2005,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,NL,,245,16,live,Commercial,C,Bred in captivity
+2006,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,TW,,10,,live,Commercial,C,Bred in captivity
+2007,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,TW,,36,,live,Commercial,C,Bred in captivity
+2008,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,BE,,17,17,live,Commercial,C,Bred in captivity
+2008,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,230,310,live,Commercial,C,Bred in captivity
+2009,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,BE,,130,124,live,Commercial,C,Bred in captivity
+2009,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,240,210,live,Commercial,C,Bred in captivity
+2010,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,BE,,248,8,live,Commercial,C,Bred in captivity
+2010,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,NL,,370,226,live,Commercial,C,Bred in captivity
+2010,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,530,420,live,Commercial,C,Bred in captivity
+2011,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,NL,,2400,17,live,Commercial,C,Bred in captivity
+2011,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,300,400,live,Commercial,C,Bred in captivity
+2011,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,160,500,live,Commercial,C,Bred in captivity
+2012,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,NL,,2700,663,live,Commercial,C,Bred in captivity
+2012,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,,500,live,Commercial,C,Bred in captivity
+2013,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,NL,,51,,live,Commercial,C,Bred in captivity
+2014,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,NL,,150,,live,Commercial,C,Bred in captivity
+2014,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,,200,live,Commercial,C,Bred in captivity
+2015,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,BE,,20,20,live,Commercial,C,Bred in captivity
+2015,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,US,,,5,live,Commercial,C,Bred in captivity
+2015,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,4030,3830,live,Commercial,C,Bred in captivity
+2016,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,US,,,11,live,Commercial,C,Bred in captivity
+2016,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,UY,,2800,3000,live,Commercial,C,Bred in captivity
+2017,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,BE,,14,14,live,Commercial,C,Bred in captivity
+2017,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,MZ,,20,,live,Commercial,C,Bred in captivity
+2017,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,,70,live,Commercial,C,Bred in captivity
+2018,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,PT,6,6,live,Commercial,C,Bred in captivity
+2018,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,NL,,180,,live,Commercial,C,Bred in captivity
+2019,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ZA,,,50,live,Commercial,C,Bred in captivity
+2020,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,CZ,,16,,live,Commercial,C,Bred in captivity
+2020,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,CZ,,,16,live,Commercial,C,Bred in captivity
+2020,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,LK,,,10,live,Commercial,C,Bred in captivity
+2020,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,NL,,31,,live,Commercial,C,Bred in captivity
+2020,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,NL,,,31,live,Commercial,C,Bred in captivity
+2000,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,CH,,5,,live,Commercial,C,Bred in captivity
+2002,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,20,live,Commercial,C,Bred in captivity
+2004,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,4,live,Commercial,C,Bred in captivity
+2005,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,CI,,14,,live,Commercial,C,Bred in captivity
+1989,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,NL,,40,10,live,Commercial,C,Bred in captivity
+1991,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,BE,,10,16,live,Commercial,C,Bred in captivity
+1992,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,BE,,10,,live,Commercial,C,Bred in captivity
+1993,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,NL,,10,6,live,Commercial,C,Bred in captivity
+1994,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,CN,,2,,live,Commercial,C,Bred in captivity
+1996,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,NL,,,2,live,Commercial,C,Bred in captivity
+1997,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,NL,,,10,live,Commercial,C,Bred in captivity
+1998,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,10,60,live,Commercial,C,Bred in captivity
+1999,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,NL,,,78,live,Commercial,C,Bred in captivity
+1999,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,474,live,Commercial,C,Bred in captivity
+2000,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,BE,,,17,live,Commercial,C,Bred in captivity
+2000,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,NL,,,14,live,Commercial,C,Bred in captivity
+2000,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,PK,,,250,live,Commercial,C,Bred in captivity
+2000,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,402,live,Commercial,C,Bred in captivity
+2001,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,498,live,Commercial,C,Bred in captivity
+2002,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,NL,,,16,live,Commercial,C,Bred in captivity
+2002,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,1860,live,Commercial,C,Bred in captivity
+2003,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,1020,live,Commercial,C,Bred in captivity
+2004,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,BE,,,87,live,Commercial,C,Bred in captivity
+2004,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,NL,,,291,live,Commercial,C,Bred in captivity
+2004,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,PH,,,30,live,Commercial,C,Bred in captivity
+2004,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,60,2840,live,Commercial,C,Bred in captivity
+2005,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,AE,BH,,600,live,Commercial,C,Bred in captivity
+2005,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,BE,,,15,live,Commercial,C,Bred in captivity
+2005,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,300,live,Commercial,C,Bred in captivity
+2007,N,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,800,live,Commercial,C,Bred in captivity
+2008,N,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,860,live,Commercial,C,Bred in captivity
+2009,N,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,BE,,,50,live,Commercial,C,Bred in captivity
+2009,N,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,444,live,Commercial,C,Bred in captivity
+2010,N,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ZA,,,300,live,Commercial,C,Bred in captivity
+1991,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,PH,,4,4,live,Commercial,C,Bred in captivity
+1994,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,CH,,,2,live,Not defined,C,Bred in captivity
+2000,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,US,,,2,live,Not defined,C,Bred in captivity
+1989,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,US,ID,47,47,live,Commercial,Not defined,Not defined
+1990,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,MY,ID,1540,,live,Commercial,Not defined,Not defined
+1991,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,MY,ID,775,,live,Commercial,Not defined,Not defined
+1993,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,NL,,4,,live,Commercial,Not defined,Not defined
+1993,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,SB,,300,,live,Commercial,Not defined,Not defined
+1983,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,AR,,,4,live,Commercial,Not defined,Not defined
+1987,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,AR,,,150,live,Commercial,Not defined,Not defined
+1992,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,UY,30,,live,Commercial,Not defined,Not defined
+1993,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,ES,UY,30,,live,Commercial,Not defined,Not defined
+1985,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,IN,,,255,live,Commercial,Not defined,Not defined
+1985,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,US,IN,,184,live,Commercial,Not defined,Not defined
+1987,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,IN,,50,50,live,Commercial,Not defined,Not defined
+1987,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,7630,,live,Commercial,Not defined,Not defined
+1988,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,1267,,live,Commercial,Not defined,Not defined
+1989,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,MM,,600,,live,Commercial,Not defined,Not defined
+1989,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,US,ID,36,36,live,Commercial,Not defined,Not defined
+1989,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,3575,,live,Commercial,Not defined,Not defined
+1990,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,MM,,450,,live,Commercial,Not defined,Not defined
+1990,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,500,,live,Commercial,Not defined,Not defined
+1991,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,MM,,1253,,live,Commercial,Not defined,Not defined
+1991,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,MY,ID,50,,live,Commercial,Not defined,Not defined
+1991,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,5000,,live,Commercial,Not defined,Not defined
+1992,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,7000,,live,Commercial,Not defined,Not defined
+1993,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,585,,live,Commercial,Not defined,Not defined
+1994,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,VN,,,1300,live,Commercial,Not defined,Not defined
+1990,III,Psittacula krameri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,IN,,,1000,live,Commercial,Not defined,Not defined
+1983,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,,325,live,Commercial,Not defined,Not defined
+1989,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,US,ID,20,20,live,Commercial,Not defined,Not defined
+1990,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,395,,live,Commercial,Not defined,Not defined
+1991,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,160,,live,Commercial,Not defined,Not defined
+1981,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,570,live,Not defined,Not defined,Not defined
+1982,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,768,live,Not defined,Not defined,Not defined
+1983,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,150,live,Not defined,Not defined,Not defined
+1985,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,175,live,Not defined,Not defined,Not defined
+1986,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,535,live,Not defined,Not defined,Not defined
+1987,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,1622,live,Not defined,Not defined,Not defined
+1988,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,1284,live,Not defined,Not defined,Not defined
+1989,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,1555,live,Not defined,Not defined,Not defined
+1992,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,3771,live,Not defined,Not defined,Not defined
+1993,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,2220,live,Not defined,Not defined,Not defined
+1994,II,Trichoglossus haematodus,Aves,Psittaciformes,Loriidae,Trichoglossus,SG,ID,,,710,live,Not defined,Not defined,Not defined
+1989,II,Myiopsitta monachus,Aves,Psittaciformes,Psittacidae,Myiopsitta,SG,AR,,,10,live,Not defined,Not defined,Not defined
+1983,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,,220,live,Not defined,Not defined,Not defined
+1985,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,,50,live,Not defined,Not defined,Not defined
+1986,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,,50,live,Not defined,Not defined,Not defined
+1987,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,,130,live,Not defined,Not defined,Not defined
+1987,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,TH,,,1710,live,Not defined,Not defined,Not defined
+1988,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,,750,live,Not defined,Not defined,Not defined
+1989,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,,997,live,Not defined,Not defined,Not defined
+1992,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,,11,live,Not defined,Not defined,Not defined
+1993,II,Psittacula alexandri,Aves,Psittaciformes,Psittacidae,Psittacula,SG,ID,,,400,live,Not defined,Not defined,Not defined
+1981,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,100,live,Not defined,Not defined,Not defined
+1982,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,428,live,Not defined,Not defined,Not defined
+1985,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,180,live,Not defined,Not defined,Not defined
+1986,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,1056,live,Not defined,Not defined,Not defined
+1987,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,1835,live,Not defined,Not defined,Not defined
+1988,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,850,live,Not defined,Not defined,Not defined
+1989,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,740,live,Not defined,Not defined,Not defined
+1992,II,Cacatua goffiniana,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,560,live,Not defined,Not defined,Not defined
+1981,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,140,live,Not defined,Not defined,Not defined
+1982,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,565,live,Not defined,Not defined,Not defined
+1983,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,40,live,Not defined,Not defined,Not defined
+1983,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,,100,live,Commercial,Not defined,Not defined
+1985,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,145,live,Not defined,Not defined,Not defined
+1986,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,540,live,Not defined,Not defined,Not defined
+1987,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,1825,live,Not defined,Not defined,Not defined
+1988,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,1684,live,Not defined,Not defined,Not defined
+1989,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,1952,live,Not defined,Not defined,Not defined
+1990,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,BN,,1,,live,Personal,Not defined,Not defined
+1990,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,,2208,live,Commercial,W,Taken from wild
+1990,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,2168,,live,Commercial,Not defined,Not defined
+1991,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,1450,live,Commercial,W,Taken from wild
+1991,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,,870,live,Commercial,W,Taken from wild
+1991,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,675,,live,Commercial,Not defined,Not defined
+1991,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,,21,live,Not defined,W,Taken from wild
+1991,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,,1,,live,Personal,Not defined,Not defined
+1991,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,,50,,live,Commercial,Not defined,Not defined
+1992,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,1461,live,Not defined,Not defined,Not defined
+1992,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,,3,live,Commercial,W,Taken from wild
+1993,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ID,,,855,live,Not defined,Not defined,Not defined
+1996,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,OM,ID,2,,live,Commercial,W,Taken from wild
+1996,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,OM,,1,,live,Personal,C,Bred in captivity
+1996,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,PH,,4,4,live,Commercial,C,Bred in captivity
+1997,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,PH,,1,1,live,Commercial,C,Bred in captivity
+1997,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,SE,,1,1,live,Personal,C,Bred in captivity
+1997,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,TH,ID,1,1,live,Personal,C,Bred in captivity
+1998,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,ID,,2,live,Commercial,W,Taken from wild
+1998,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ZA,,10,20,live,Commercial,C,Bred in captivity
+1999,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,IN,,2,,live,Zoo,U,Unknown
+1999,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,NL,SG,3,,live,Commercial,C,Bred in captivity
+1999,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ZA,,50,90,live,Commercial,C,Bred in captivity
+2000,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,US,,1,1,live,Personal,F,Born in captivity
+2000,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ZA,,20,20,live,Commercial,C,Bred in captivity
+2003,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,MY,SB,16,16,live,Commercial,C,Bred in captivity
+2003,II,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,ZA,,,20,live,Commercial,C,Bred in captivity
+2011,I,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,US,,1,,live,Personal,F,Born in captivity
+2012,I,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,FR,,2,,live,Zoo,C,Bred in captivity
+2012,I,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,FR,,,2,live,Zoo,F,Born in captivity
+2014,I,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,GB,,2,,live,Zoo,U,Unknown
+2017,I,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,JP,XX,,1,bodies,Circus,O,Pre-convention
+2017,I,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,JP,XX,1,,specimens,Circus,O,Pre-convention
+2019,I,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,HK,,7,,extract,Scientific,W,Taken from wild
+2019,I,Cacatua sulphurea,Aves,Psittaciformes,Cacatuidae,Cacatua,SG,HK,,6,,specimens,Scientific,W,Taken from wild
