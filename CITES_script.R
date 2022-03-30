@@ -1,4 +1,4 @@
-# CITES SG Project
+# CITES SG Project 2020----
 #libs----
 library(tidyverse)
 #directory----
@@ -88,6 +88,7 @@ ordered_plot_export_report<-datanew %>%
         plot.title = element_text(hjust = 0.5))+
   labs(title = "CITES reported export quantity of parrots to Singapore 1990-2020")
 ordered_plot_export_report
+
 # importer reports----
 plot_import_report<-cites3 %>% 
   ggplot(aes(Year,`Importer reported quantity`,fill=Common_Name))+
