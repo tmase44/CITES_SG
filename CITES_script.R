@@ -74,20 +74,6 @@ plot_export_report<-cites3 %>%
   labs(title = "CITES reported export quantity of parrots to Singapore 1990-2020")
 plot_export_report
 
-# reorder levels for publication----
-datanew<-cites3
-datanew$Common_Name<-ordered(datanew$Common_Name, levels = c("Monk parakeet", "Rose-ringed parakeet", "Coconut lorikeet", "Red-breasted parakeet","Yellow-crested cockatoo","Tanimbar corella"))
-
-ordered_plot_export_report<-datanew %>% 
-  ggplot(aes(Year,`Exporter reported quantity`,fill=Common_Name))+
-  geom_col() +
-  facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
-  theme_bw() +
-  theme(strip.text.y = element_text(angle = 0),
-        legend.position = "none",
-        plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES reported export quantity of parrots to Singapore 1990-2020")
-ordered_plot_export_report
 
 # importer reports----
 plot_import_report<-cites3 %>% 
@@ -114,43 +100,28 @@ plot_export_report_by_country<-cites3 %>%
   labs(title = "CITES Exports to Singapore by destination, where annual qty >= 50")
 plot_export_report_by_country
 
+# reorder levels for publication----
+datanew<-cites3
+datanew$Common_Name<-ordered(datanew$Common_Name, levels = c("Monk parakeet", "Rose-ringed parakeet", "Coconut lorikeet", "Red-breasted parakeet","Yellow-crested cockatoo","Tanimbar corella"))
 
+ordered_plot_export_report<-datanew %>% 
+  ggplot(aes(Year,`Exporter reported quantity`,fill=Common_Name))+
+  geom_col() +
+  facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
+  theme_bw() +
+  theme(strip.text.y = element_text(angle = 0),
+        legend.position = "none",
+        plot.title = element_text(hjust = 0.5))+
+  labs(title = "CITES reported export quantity of parrots to Singapore 1990-2020")
+ordered_plot_export_report
 
-
-
-# alternative plots----
-# export report
-cites3 %>% 
-  ggplot(aes(Year,`Exporter reported quantity`,
-             fill=Common_Name))+
-  geom_col()+
-  facet_wrap(~Common_Name)+
-  theme_minimal()+
-  theme(plot.title = element_text(hjust = 0.5))+
- 
-# Importer reports
-plot_import_report<-cites3 %>% 
-  ggplot(aes(Year,`Importer reported quantity`,
-             fill=Common_Name))+
-  geom_col()+
-  facet_wrap(~Common_Name)+
-  theme_minimal()+
-  theme(legend.position = c(0.85,0.25),
+ordered_plot_import_report<-datanew %>% 
+  ggplot(aes(Year,`Importer reported quantity`,fill=Common_Name))+
+  geom_col() +
+  facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
+  theme_bw() +
+  theme(strip.text.y = element_text(angle = 0),
+        legend.position = "none",
         plot.title = element_text(hjust = 0.5))+
   labs(title = "CITES reported import quantity of parrots to Singapore 1990-2020")
-plot_import_report
-
-# Exporters to Singapore
-plot_export_report_by_country<-cites3 %>% 
-  filter(`Exporter reported quantity`>=50) %>% 
-  ggplot(aes(Year,`Exporter reported quantity`,
-             fill=Exporter))+
-  geom_bar(stat = 'identity')+
-  facet_wrap(~Common_Name)+
-  theme_minimal()+
-  theme(plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES Exports to Singapore by destination, where annual qty >= 50")
-
-plot_export_report
-plot_import_report
-plot_export_report_by_country
+ordered_plot_import_report
