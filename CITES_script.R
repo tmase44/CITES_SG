@@ -112,7 +112,7 @@ ordered_plot_export_report<-datanew %>%
   theme(strip.text.y = element_text(angle = 0),
         legend.position = "none",
         plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES reported export quantity of parrots to Singapore 1990-2020")
+  labs(title = "CITES reported export quantity of parrots to Singapore 1980-2020")
 ordered_plot_export_report
 
 ordered_plot_import_report<-datanew %>% 
@@ -123,5 +123,5 @@ ordered_plot_import_report<-datanew %>%
   theme(strip.text.y = element_text(angle = 0),
         legend.position = "none",
         plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES reported import quantity of parrots to Singapore 1990-2020")
+  labs(title = "CITES reported import quantity of parrots to Singapore 1980-2020")
 ordered_plot_import_report
