@@ -125,3 +125,5 @@ ordered_plot_import_report<-datanew %>%
         plot.title = element_text(hjust = 0.5))+
   labs(title = "CITES reported import quantity of parrots to Singapore 1980-2020")
 ordered_plot_import_report
+
+---- section 
