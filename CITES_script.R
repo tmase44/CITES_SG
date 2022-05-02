@@ -126,4 +126,18 @@ ordered_plot_import_report<-datanew %>%
   labs(title = "CITES reported import quantity of parrots to Singapore 1980-2020")
 ordered_plot_import_report
 
----- section 
+#data analysis----
+view(datanew)
+
+# SUM import reports from SG
+datanew %>% 
+  group_by(Common_Name) %>% 
+  summarize(Importer_reports = sum(`Importer reported quantity`)) %>% 
+  arrange(desc(Importer_reports))
+
+# SUM export reports to SG
+datanew %>% 
+  group_by(Common_Name) %>% 
+  summarize(Exporter_reports = sum(`Exporter reported quantity`)) %>% 
+  arrange(desc(Exporter_reports))
+
