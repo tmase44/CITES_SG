@@ -58,5 +58,82 @@ SGEX_tibble<-citesnet2 %>%
   summarize(Exports_SG = sum(`Exporter reported quantity`)) %>% 
   arrange(desc(Exports_SG))
 SGEX_tibble
-  
 
+SG_trade<-merge(SGEX_tibble, SGIM_tibble)  
+SG_trade
+SG_trade$Exports_SG<-round(SG_trade$Exports_SG)
+
+SG_trade<-SG_trade %>%
+  mutate(Net_trade = Imports_SG - Exports_SG) %>% 
+  arrange(desc(Net_trade))
+SG_trade
+
+# next steps ----
+  # annual exports by species
+  # annual imports by species
+  # annual net trade by species
+
+SGEX_big<-citesnet2 %>% 
+  filter(Exporter == "SG") %>%
+  group_by(Year,Common_Name) %>% 
+  summarize(Exports_SG = sum(`Exporter reported quantity`))
+SGEX_big
+
+SGIM_big<-citesnet2 %>% 
+  filter(Importer == "SG") %>%
+  group_by(Year,Common_Name) %>% 
+  summarize(Imports_SG = sum(`Importer reported quantity`))
+SGIM_big
+
+SG_trade_big<-merge(SGIM_big, SGEX_big)  
+view(SG_trade_big)
+
+SG_trade_big<-SG_trade_big %>% 
+  mutate(Net_trade = Imports_SG - Exports_SG)
+
+# charts ----
+  # reorder data first
+SG_trade_big$Common_Name<-ordered(SG_trade_big$Common_Name, 
+                                  levels = c("Monk parakeet", 
+                                             "Rose-ringed parakeet", 
+                                             "Coconut lorikeet", 
+                                             "Red-breasted parakeet",
+                                             "Yellow-crested cockatoo",
+                                             "Tanimbar corella"))
+
+
+# Exports
+SGEX_chart<-SG_trade_big %>% 
+  ggplot(aes(Year,`Exports_SG`,fill=Common_Name))+
+  geom_col() +
+  facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
+  theme_bw() +
+  theme(strip.text.y = element_text(angle = 0),
+        legend.position = "none",
+        plot.title = element_text(hjust = 0.5))+
+  labs(title = "CITES reported export quantity of parrots from Singapore 1980-2020")
+SGEX_chart
+
+# Imports
+SGIM_chart<-SG_trade_big %>% 
+  ggplot(aes(Year,`Imports_SG`,fill=Common_Name))+
+  geom_col() +
+  facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
+  theme_bw() +
+  theme(strip.text.y = element_text(angle = 0),
+        legend.position = "none",
+        plot.title = element_text(hjust = 0.5))+
+  labs(title = "CITES reported import quantity of parrots to Singapore 1980-2020")
+SGIM_chart
+
+# Net trade
+SGnet_chart<-SG_trade_big %>% 
+  ggplot(aes(Year,`Net_trade`,fill=Common_Name))+
+  geom_col() +
+  facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
+  theme_bw() +
+  theme(strip.text.y = element_text(angle = 0),
+        legend.position = "none",
+        plot.title = element_text(hjust = 0.5))+
+  labs(title = "CITES reported net trade of parrots. Singapore import and export 1980-2020")
+SGnet_chart
