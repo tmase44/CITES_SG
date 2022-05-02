@@ -19,7 +19,7 @@ cites2<-cites %>%
   select(Year,App.,Taxon,Importer,Exporter,
          `Importer reported quantity`,
          `Exporter reported quantity`,Purpose,Source_def)
-unique(cites3$Taxon)
+unique(cites2$Taxon)
 
 # replace NA with ZERO----
 cites2[is.na(cites2)] <- 0

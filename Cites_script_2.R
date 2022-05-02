@@ -68,6 +68,7 @@ SG_trade<-SG_trade %>%
   arrange(desc(Net_trade))
 SG_trade
 
+
 # next steps ----
   # annual exports by species
   # annual imports by species
