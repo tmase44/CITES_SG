@@ -95,46 +95,47 @@ SG_trade_big<-SG_trade_big %>%
 # charts ----
   # reorder data first
 SG_trade_big$Common_Name<-ordered(SG_trade_big$Common_Name, 
-                                  levels = c("Monk parakeet", 
-                                             "Rose-ringed parakeet", 
-                                             "Coconut lorikeet", 
-                                             "Red-breasted parakeet",
+                                  levels = c("Red-breasted parakeet",
+                                             "Tanimbar corella",
                                              "Yellow-crested cockatoo",
-                                             "Tanimbar corella"))
-
-
+                                             "Monk parakeet", 
+                                             "Rose-ringed parakeet",
+                                             "Coconut lorikeet"))
 # Exports
-SGEX_chart<-SG_trade_big %>% 
-  ggplot(aes(Year,`Exports_SG`,fill=Common_Name))+
+SGEX_chart<-SG_trade_big %>% filter(Common_Name!='Coconut lorikeet') %>% 
+  ggplot(aes(Year,Exports_SG,fill=Common_Name))+
   geom_col() +
   facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
   theme_bw() +
   theme(strip.text.y = element_text(angle = 0),
         legend.position = "none",
         plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES reported export quantity of parrots from Singapore 1980-2020")
+  labs(title = "CITES reported export quantity of parrots from Singapore 1980-2020",
+       y="Annual imported quantity",x="Year")+
+  scale_fill_manual(values=c('Red-breasted parakeet'='#CC3311','Monk parakeet'='#004488','Rose-ringed parakeet'='#EE3377','Tanimbar corella'='#33BBEE','Yellow-crested cockatoo'='#009988'))
 SGEX_chart
 
 # Imports
-SGIM_chart<-SG_trade_big %>% 
-  ggplot(aes(Year,`Imports_SG`,fill=Common_Name))+
+SGIM_chart<-SG_trade_big %>% filter(Common_Name!='Coconut lorikeet') %>% 
+  ggplot(aes(Year,Imports_SG,fill=Common_Name))+
   geom_col() +
   facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
   theme_bw() +
-  theme(strip.text.y = element_text(angle = 0),
-        legend.position = "none",
-        plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES reported import quantity of parrots to Singapore 1980-2020")
+  theme(strip.text.y = element_text(angle = 0),legend.position = "none",plot.title = element_text(hjust = 0.5))+
+  labs(title = "CITES reported import quantity of parrots to Singapore 1980-2020")+
+  scale_fill_manual(values=c('Red-breasted parakeet'='#CC3311','Monk parakeet'='#004488','Rose-ringed parakeet'='#EE3377','Tanimbar corella'='#33BBEE','Yellow-crested cockatoo'='#009988'))
 SGIM_chart
 
 # Net trade
-SGnet_chart<-SG_trade_big %>% 
-  ggplot(aes(Year,`Net_trade`,fill=Common_Name))+
+SGnet_chart<-SG_trade_big %>% filter(Common_Name!='Coconut lorikeet') %>% 
+  ggplot(aes(Year,Net_trade,fill=Common_Name))+
   geom_col() +
   facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
   theme_bw() +
   theme(strip.text.y = element_text(angle = 0),
         legend.position = "none",
         plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES reported net trade of parrots. Singapore import and export 1980-2020")
+  labs(title = "CITES reported net trade of parrots. Singapore import and export 1980-2020")+
+  scale_fill_manual(values=c('Red-breasted parakeet'='#CC3311','Monk parakeet'='#004488','Rose-ringed parakeet'='#EE3377','Tanimbar corella'='#33BBEE','Yellow-crested cockatoo'='#009988'))
+
 SGnet_chart
