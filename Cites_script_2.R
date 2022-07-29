@@ -1,4 +1,6 @@
 library(tidyverse)
+library(ggpubr)
+library(gridExtra)
 
 # this file will take the net trade of Singapore
   # per species, imports reported by SG
@@ -98,44 +100,93 @@ SG_trade_big$Common_Name<-ordered(SG_trade_big$Common_Name,
                                   levels = c("Red-breasted parakeet",
                                              "Tanimbar corella",
                                              "Yellow-crested cockatoo",
-                                             "Monk parakeet", 
                                              "Rose-ringed parakeet",
+                                             "Monk parakeet", 
                                              "Coconut lorikeet"))
-# Exports
-SGEX_chart<-SG_trade_big %>% filter(Common_Name!='Coconut lorikeet') %>% 
-  ggplot(aes(Year,Exports_SG,fill=Common_Name))+
+# Exports /// this one/// ----
+SGEX_chart<-SG_trade_big %>% 
+  filter(Common_Name!='Coconut lorikeet'&Common_Name!='Yellow-crested cockatoo') %>% 
+  ggplot(aes(Year,Exports_SG))+
   geom_col() +
-  facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
-  theme_bw() +
-  theme(strip.text.y = element_text(angle = 0),
+  facet_wrap(~Common_Name, 
+             strip.position = "left", 
+             ncol = 1, 
+             #scales = "free_y",
+             labeller = label_wrap_gen(width = 2, multi_line = TRUE))+
+  theme_pubclean()+style180+
+  theme(strip.text.y = element_text(angle = 0,size=13),
+        strip.placement = 'outside',
         legend.position = "none",
-        plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES reported export quantity of parrots from Singapore 1980-2020",
-       y="Annual imported quantity",x="Year")+
-  scale_fill_manual(values=c('Red-breasted parakeet'='#CC3311','Monk parakeet'='#004488','Rose-ringed parakeet'='#EE3377','Tanimbar corella'='#33BBEE','Yellow-crested cockatoo'='#009988'))
+        plot.title = element_text(hjust = 0.5),
+        axis.title.y = element_blank(),
+        axis.text.y = element_text(size=11))+
+  labs(title = "CITES reported exports from Singapore: 1980-2020",
+       y="Annual imported quantity",x="Year")
 SGEX_chart
 
-# Imports
-SGIM_chart<-SG_trade_big %>% filter(Common_Name!='Coconut lorikeet') %>% 
-  ggplot(aes(Year,Imports_SG,fill=Common_Name))+
+# Imports /// and this one/// ----
+SGIM_chart<-SG_trade_big %>% 
+  filter(Common_Name!='Coconut lorikeet'&Common_Name!='Yellow-crested cockatoo') %>% 
+  ggplot(aes(Year,Imports_SG))+
   geom_col() +
-  facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
-  theme_bw() +
-  theme(strip.text.y = element_text(angle = 0),legend.position = "none",plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES reported import quantity of parrots to Singapore 1980-2020")+
-  scale_fill_manual(values=c('Red-breasted parakeet'='#CC3311','Monk parakeet'='#004488','Rose-ringed parakeet'='#EE3377','Tanimbar corella'='#33BBEE','Yellow-crested cockatoo'='#009988'))
+  facet_wrap(~Common_Name, 
+             strip.position = "left", 
+             ncol = 1, 
+             #scales = "free_y",
+             labeller = label_wrap_gen(width = 2, multi_line = TRUE))+
+  theme_pubclean()+style180+
+  theme(strip.text.y = element_text(angle = 0,size=13),
+        strip.placement = 'outside',
+        legend.position = "none",
+        plot.title = element_text(hjust = 0.5),
+        axis.title.y = element_blank(),
+        axis.text.y = element_text(size=11))+
+  labs(title = "CITES reported imports from Singapore: 1980-2020")
 SGIM_chart
 
-# Net trade
-SGnet_chart<-SG_trade_big %>% filter(Common_Name!='Coconut lorikeet') %>% 
-  ggplot(aes(Year,Net_trade,fill=Common_Name))+
+# Net trade----
+SGnet_chart<-SG_trade_big %>% 
+  filter(Common_Name!='Coconut lorikeet'&Common_Name!='Yellow-crested cockatoo') %>% 
+  ggplot(aes(Year,Net_trade))+
   geom_col() +
-  facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
-  theme_bw() +
-  theme(strip.text.y = element_text(angle = 0),
+  facet_wrap(~Common_Name, 
+             strip.position = "left", 
+             ncol = 1, 
+             scales = "free_y",
+             labeller = label_wrap_gen(width = 2, multi_line = TRUE))+
+  theme_pubclean()+style180+
+  theme(strip.text.y = element_text(angle = 0,size=13),
+        strip.placement = 'outside',
         legend.position = "none",
-        plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES reported net trade of parrots. Singapore import and export 1980-2020")+
-  scale_fill_manual(values=c('Red-breasted parakeet'='#CC3311','Monk parakeet'='#004488','Rose-ringed parakeet'='#EE3377','Tanimbar corella'='#33BBEE','Yellow-crested cockatoo'='#009988'))
-
+        plot.title = element_text(hjust = 0.5),
+        axis.title.y = element_blank())+
+  labs(title = "CITES reported net trade of parrots. Singapore import and export 1980-2020")
 SGnet_chart
+
+# grid----
+grid.arrange(SGIM_chart,SGEX_chart,ncol=2,nrow=1)
+
+## styles##
+
+style90 <-  theme(plot.title = element_text(size=40,margin = margin(0,0,25,0)),
+                  axis.title.y = element_text(size=25,margin = margin(0,25,0,0)),
+                  axis.title.x = element_text(size=25,margin = margin(25,0,0,0)),
+                  axis.text.x = element_text(size=25,angle = 90, vjust = 0.5, hjust=1),
+                  axis.text.y = element_text(size = 25))
+# standard
+style180 <-  theme(plot.title = element_text(size=20,margin = margin(0,0,25,0)),
+                   axis.title.y = element_text(size=15,margin = margin(0,25,0,0)),
+                   axis.title.x = element_text(size=15,margin = margin(25,0,0,0)),
+                   axis.text.x = element_text(size=15, vjust = 0.5, hjust=1),
+                   axis.text.y = element_text(size = 15))
+
+style180Centered <-  theme(plot.title = element_text(size=20,margin = margin(0,0,25,0)),
+                           axis.title.y = element_text(size=15,margin = margin(0,25,0,0)),
+                           axis.title.x = element_text(size=15,margin = margin(25,0,0,0)),
+                           axis.text.x = element_text(size=15),
+                           axis.text.y = element_text(size = 15))
+
+styleRA <-  theme(plot.title = element_text(size=20,margin = margin(0,0,25,0)),
+                  axis.title.y = element_text(size=15,margin = margin(0,25,0,0)),
+                  axis.title.x = element_text(size=15,margin = margin(25,0,0,0)))
+

@@ -104,7 +104,7 @@ plot_export_report_by_country
 datanew<-cites3
 datanew$Common_Name<-ordered(datanew$Common_Name, levels = c("Monk parakeet", "Rose-ringed parakeet", "Coconut lorikeet", "Red-breasted parakeet","Yellow-crested cockatoo","Tanimbar corella"))
 
-ordered_plot_export_report<-datanew %>% 
+ordered_plot_export_report<-datanew %>% filter(Common_Name!='Coconut lorikeet') %>% 
   ggplot(aes(Year,`Exporter reported quantity`,fill=Common_Name))+
   geom_col() +
   facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
@@ -112,10 +112,11 @@ ordered_plot_export_report<-datanew %>%
   theme(strip.text.y = element_text(angle = 0),
         legend.position = "none",
         plot.title = element_text(hjust = 0.5))+
-  labs(title = "CITES reported export quantity of parrots to Singapore 1980-2020")
+  labs(title = "CITES reported export quantity of parrots to Singapore 1980-2020")+
+  scale_x_continuous(breaks=seq(1980, 2020, 5))
 ordered_plot_export_report
 
-ordered_plot_import_report<-datanew %>% 
+ordered_plot_import_report<-datanew %>% filter(Common_Name!='Coconut lorikeet') %>%
   ggplot(aes(Year,`Importer reported quantity`,fill=Common_Name))+
   geom_col() +
   facet_wrap(~Common_Name, strip.position = "right", ncol = 1, scales = "fixed") +
