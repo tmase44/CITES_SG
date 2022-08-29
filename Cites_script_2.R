@@ -34,7 +34,6 @@ citesnet2<-citesnet2 %>%
 citesnet2$Taxon<-as.factor(citesnet2$Taxon)
 citesnet2$Importer<-as.factor(citesnet2$Importer)
 citesnet2$Exporter<-as.factor(citesnet2$Exporter)
-citesnet2$Origin<-as.factor(citesnet2$Origin)
 citesnet2$Source_def<-as.factor(citesnet2$Source_def)
 citesnet2$Purpose<-as.factor(citesnet2$Purpose)
 citesnet2$App.<-as.factor(citesnet2$App.)
@@ -95,6 +94,10 @@ SG_trade_big<-SG_trade_big %>%
   mutate(Net_trade = Imports_SG - Exports_SG)
 
 # charts ----
+windowsFonts()
+windowsFonts(A  = windowsFont("TT Times New Roman"))
+theme(plot.title = element_text(hjust=-0.04))
+
   # reorder data first
 SG_trade_big$Common_Name<-ordered(SG_trade_big$Common_Name, 
                                   levels = c("Red-breasted parakeet",
@@ -104,7 +107,7 @@ SG_trade_big$Common_Name<-ordered(SG_trade_big$Common_Name,
                                              "Monk parakeet", 
                                              "Coconut lorikeet"))
 # Exports /// this one/// ----
-SGEX_chart<-SG_trade_big %>% 
+SG_trade_big %>% 
   filter(Common_Name!='Coconut lorikeet'&Common_Name!='Yellow-crested cockatoo') %>% 
   ggplot(aes(Year,Exports_SG))+
   geom_col() +
@@ -114,18 +117,20 @@ SGEX_chart<-SG_trade_big %>%
              #scales = "free_y",
              labeller = label_wrap_gen(width = 2, multi_line = TRUE))+
   theme_pubclean()+style180+
-  theme(strip.text.y = element_text(angle = 0,size=13),
+  theme(strip.text.y = element_text(angle = 0,size=18),
         strip.placement = 'outside',
         legend.position = "none",
-        plot.title = element_text(hjust = 0.5),
+        plot.title = element_text(size=24, hjust = -.3),
         axis.title.y = element_blank(),
-        axis.text.y = element_text(size=11))+
-  labs(title = "CITES reported exports from Singapore: 1980-2020",
+        axis.text.y = element_text(size=18),
+        axis.text.x = element_text(size=18),
+        text=element_text(family='A'))+
+  labs(title = "Appendix 1.1: CITES reported exports from Singapore: 1980-2020",
        y="Annual imported quantity",x="Year")
 SGEX_chart
 
 # Imports /// and this one/// ----
-SGIM_chart<-SG_trade_big %>% 
+SG_trade_big %>% 
   filter(Common_Name!='Coconut lorikeet'&Common_Name!='Yellow-crested cockatoo') %>% 
   ggplot(aes(Year,Imports_SG))+
   geom_col() +
@@ -135,13 +140,15 @@ SGIM_chart<-SG_trade_big %>%
              #scales = "free_y",
              labeller = label_wrap_gen(width = 2, multi_line = TRUE))+
   theme_pubclean()+style180+
-  theme(strip.text.y = element_text(angle = 0,size=13),
+  theme(strip.text.y = element_text(angle = 0,size=18),
         strip.placement = 'outside',
         legend.position = "none",
-        plot.title = element_text(hjust = 0.5),
+        plot.title = element_text(hjust = -.3,size=24),
         axis.title.y = element_blank(),
-        axis.text.y = element_text(size=11))+
-  labs(title = "CITES reported imports from Singapore: 1980-2020")
+        axis.text.y = element_text(size=18),
+        axis.text.x = element_text(size=18),
+        text=element_text(family='A'))+
+  labs(title = "Appendix 1.2: CITES reported imports from Singapore: 1980-2020")
 SGIM_chart
 
 # Net trade----
